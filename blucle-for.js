@@ -23,7 +23,6 @@ let suma = 0;
 let limite = 1000;
 
 for (let x = 1; x <= limite; x++) {
-    
     suma += x; // -> suma = suma + x;    
 }
 
