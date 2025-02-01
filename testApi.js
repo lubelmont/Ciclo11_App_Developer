@@ -1,3 +1,9 @@
+
 const { searchCountry } = require ('./library/searchCountry.js')
 
-searchCountry()
+async function run() {
+    const countries = await searchCountry(); 
+    console.log(countries); 
+}
+  
+  run();
