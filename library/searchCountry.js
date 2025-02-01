@@ -1,5 +1,5 @@
 
-export async function searchCountry() {
+function searchCountry() {
 
 fetch("https://restcountries.com/v3.1/region/America?fields=name,capital,currencies,flags,region")
   .then(response => response.json())
@@ -9,3 +9,5 @@ fetch("https://restcountries.com/v3.1/region/America?fields=name,capital,currenc
   .catch(error => console.log(error))
 
 }
+
+module.exports = { searchCountry };
