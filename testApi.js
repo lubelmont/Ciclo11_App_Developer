@@ -6,4 +6,4 @@ async function run() {
     console.log(countries); 
 }
   
-  run();
+run();
